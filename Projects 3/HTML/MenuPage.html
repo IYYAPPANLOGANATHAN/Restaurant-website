@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seafood Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0a0101;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin:10px 10px;
+            border-radius: 5px;
+            background-color:black;
+            float: right;
+            
+            
+            
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+
+        .menu-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1em;
+            padding: 1em;
+            width: 300px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+
+        .menu-card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-card img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 1em;
+            transition: transform 0.3s;
+        }
+
+        .menu-card:hover img {
+            transform: scale(1.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .price {
+            color: #e44d26;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #040101;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1{
+            padding-left:50px;
+
+        }
+
+        .para{
+            text-align: justify;
+            padding: 60px;
+            padding-bottom: 100px;
+            text-indent: 200px;
+        }
+        img{
+            height: 350px;
+        }
+
+
+        /* Pagination */
+        .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
+</head>
+<body>
+                <!--          Header  nav         -->
+                <header>
+                    <h1>Beach View Restaurant </h1>
+                     </header>
+                    <nav>
+                        <a href="AboutPage.html">About Us</a>
+                        <a href="booking.html">Booking</a>
+                        <a href="MenuPage.html">Menu</a>
+                        <a href="Homepage.html">Home</a>    
+                    </nav> 
+                    
+               
+                
+            
+            
+       <h1>Sea Food Menu</h1>        
+  
+    <section>
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/fish-1.jpeg" alt="Lobster">
+            <h2>Crab Delight</h2>
+            <p>Fresh Crab served with garlic butter sauce.</p>
+            <p class="price">$29.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/fish4.jpeg" alt="Shrimp">
+            <h2>Garlic Butter fish</h2>
+            <p>Juicy fish cooked in garlic and butter.</p>
+            <p class="price">$19.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/fish5.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/fish6.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/fish7.png" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/pron fry-1.jpg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled Pron fry seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+       <div class="menu-card">
+            <img src="/Images/Fish fry img/Tuna fish 1.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled Tuna Fish seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/lobster-2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/lobster-3.jpg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/lobsters-4.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Crab1.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/crab2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/crab 3.JPG" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/crab-4.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/crab5.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/crab6.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/pron fry-1.jpg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Prompt fish-3.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Prawn-Thokku-5jpg.jpg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid.2.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid4.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid5.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid6.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid1.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/squid.2.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Prompt fish-3.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/prompet 10.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/prompet11.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/mixed Combo1.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/mixed com2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Mixedcombo3.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Chickenrice1.png" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/lobster-2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Chickenrice2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Chicken biriyani3.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/Chicken biryani4.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/mutton biriyani5.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/mutton biriyani1.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/muttonbiryani33.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/mutton-Biryani-04.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/meals4.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/meals3.webp" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/meals2.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+        <div class="menu-card">
+            <img src="/Images/Fish fry img/meals1.jpeg" alt="Salmon">
+            <h2>Grilled lobster</h2>
+            <p>Freshly grilled lobster seasoned to perfection.</p>
+            <p class="price">$24.99</p>
+        </div>
+
+        
+
+
+        
+
+    </section>
+     <!--          Nav Bar       -->
+            
+     <div class="pagination">
+        <a href="Homepage.html">&laquo;</a>
+    
+        <a href="Homepage.html">1</a>
+        <a href="#" class="active">2</a>
+        <a href="booking.html">3</a>
+        <a href="AboutPage.html">4</a>
+       
+        <a href="booking.html">&raquo;</a>
+      </div>
+<div class="para">
+
+<br>
+<br>
+<h1> <Details>Order Details</Details></h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nemo obcaecati iste unde. Neque ipsum dolores harum nam optio maxime impedit veritatis modi labore nihil, aut, voluptate reiciendis, omnis eius commodi pariatur nisi inventore eaque dolore esse fugit aliquid sed ipsa. Earum minus qui autem vero neque blanditiis veritatis beatae aut deserunt. Similique ea possimus voluptatem at, porro amet reprehenderit. Mollitia, cum dolore. Id nostrum non deleniti at! Nulla consectetur quis esse est accusantium harum possimus necessitatibus veritatis saepe modi pariatur, aut repellendus alias quibusdam autem velit impedit ad explicabo animi porro quas ullam. Debitis nemo numquam suscipit ut modi delectus necessitatibus inventore aperiam placeat sunt minus totam, voluptas nulla at earum nostrum voluptate odit distinctio corrupti ipsam officiis veritatis esse cumque! Quidem veritatis quasi maiores blanditiis atque accusantium illo cum recusandae nulla inventore! Rerum harum itaque voluptatum repudiandae, saepe autem eos aliquid corrupti nam, rem sapiente id possimus iure obcaecati dolor labore molestias provident hic minima ab! Cum unde ipsam nihil quod deserunt hic beatae error dolorem saepe voluptate tenetur, veritatis aliquid ut, possimus distinctio modi dicta molestias voluptatem sequi libero laudantium tempora consectetur. Tenetur molestiae, dignissimos repellendus commodi sint voluptates aut reiciendis quo fuga optio sit a, harum consectetur ipsum magnam ullam amet officia, veniam voluptatem debitis. Eos molestias accusamus dolorum velit corrupti at reprehenderit pariatur recusandae blanditiis itaque. Ut, eligendi? Unde voluptates velit facilis eaque a aperiam, voluptas voluptate sit possimus iusto reiciendis molestiae quod, deleniti laudantium, vero aliquid quasi. Aliquam autem architecto, minus impedit laudantium iure porro itaque deleniti sint rem quia hic officiis modi consequuntur totam omnis, dolor non molestias, numquam accusamus. Officiis quos animi vero, soluta quidem asperiores voluptates impedit corporis! Libero perspiciatis impedit magnam saepe minus cupiditate accusantium tenetur? Rem adipisci numquam dolorem, dolore eius incidunt cum laborum error officia exercitationem atque amet provident labore molestiae, vero nihil? Exercitationem fuga, sapiente saepe soluta illo ipsum vero, sequi quae laborum ipsa impedit necessitatibus debitis obcaecati vel molestias atque minima placeat commodi voluptatem ratione et deleniti at optio! Accusamus, eius est! Hic debitis sint dolores mollitia doloribus laudantium quam recusandae incidunt voluptatibus nesciunt pariatur aspernatur reiciendis, ea, nam excepturi natus totam. Deserunt reiciendis doloremque, eveniet molestias blanditiis libero error rerum quod facilis, nihil eum soluta officiis nam beatae fugiat eaque nulla? Accusantium odit, corporis accusamus eaque possimus voluptatem minima, fugiat modi ducimus dolores tenetur officia. Molestiae consequatur minus consequuntur possimus reprehenderit. Sint non blanditiis mollitia amet asperiores praesentium placeat pariatur odio voluptates optio in rem ex maiores reiciendis, ipsa fuga distinctio. Ad, iusto tempora, maiores eius nostrum voluptatum cumque provident officia minus minima incidunt ipsam voluptates consectetur autem ipsum inventore quo nobis ratione sit praesentium animi necessitatibus, excepturi suscipit? Possimus reprehenderit minus praesentium corrupti placeat excepturi, porro ex dolore laudantium sed voluptate maiores laboriosam expedita dicta iste quos animi. Pariatur odit aut, sed temporibus delectus, fugit harum quia doloremque ratione expedita adipisci voluptates sint dignissimos perferendis unde porro odio officiis consequatur alias eveniet vero eum enim cupiditate deleniti. Quibusdam sed, ea corrupti excepturi dolor quas?</p>
+</div>     
+    <footer>
+        <p>&copy; 2024 Beach View Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
